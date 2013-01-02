@@ -1,0 +1,12 @@
+# Ruby
+.bundle
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Mac
+.DS_Store
+
+# Vim
+*.swp
