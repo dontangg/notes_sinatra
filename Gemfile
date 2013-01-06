@@ -12,8 +12,5 @@ gem 'sprockets', '~> 2.0'
 gem 'thin'
 
 group :development do
-  # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  # gem 'therubyracer', :platforms => :ruby
-
   gem 'uglifier'
 end
