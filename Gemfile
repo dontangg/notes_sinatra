@@ -11,6 +11,4 @@ gem 'sprockets', '~> 2.0'
 
 gem 'thin'
 
-group :development do
-  gem 'uglifier'
-end
+gem 'uglifier'
