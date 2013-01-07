@@ -7,6 +7,7 @@ gem 'sinatra-contrib', require: false
 
 gem 'slim'
 gem 'coffee-script'
+gem 'sass'
 gem 'sprockets', '~> 2.0'
 
 gem 'thin'
