@@ -54,12 +54,12 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
-  coffee-script
+  coffee-script (~> 2.2)
   rake
-  sass
-  sinatra
-  sinatra-contrib
-  slim
+  sass (~> 3.2)
+  sinatra (~> 1.3)
+  sinatra-contrib (~> 1.3)
+  slim (~> 1.3)
   sprockets (~> 2.0)
-  thin
-  uglifier
+  thin (~> 1.5)
+  uglifier (~> 1.3)
