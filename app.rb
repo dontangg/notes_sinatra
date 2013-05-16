@@ -19,7 +19,10 @@ Sinatra::Base.configure :production do |c|
   c.set :static_cache_control, [:public, :max_age => 36000]
 end
 
-%w(modules).each do |folder_name|
-  Dir[File.expand_path("../#{folder_name}/*.rb", __FILE__)].each {|file| require file}
-end
+#%w(modules).each do |folder_name|
+  #Dir[File.expand_path("../#{folder_name}/*.rb", __FILE__)].each {|file| require file}
+#end
+
+require './modules/helpers.rb'
+require './modules/main.rb'
 
